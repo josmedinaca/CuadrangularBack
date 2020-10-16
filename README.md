@@ -27,7 +27,7 @@ CREATE DATABASE oas;
 \c oas
 ```
 
-Las siguientes lineas pueden ejecutarse todas de una ves
+Las siguientes lineas pueden ejecutarse todas de una vez
 
 ```
 CREATE TABLE IF NOT EXISTS "oas"."public"."equipo" (
