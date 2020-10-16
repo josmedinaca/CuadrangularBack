@@ -1,5 +1,5 @@
 # CuadrangularBack
-![alt text](https://github.com/josmedinaca/CuadrangularBack/blob/master/Captura.PNG)
+![alt text](https://raw.githubusercontent.com/josmedinaca/CuadrangularBack/main/Captura.PNG)
 
 ## Comenzando 🚀
 
