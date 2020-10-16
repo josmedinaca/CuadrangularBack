@@ -110,7 +110,7 @@ _Subir el Docker Compose_
 docker-compose up
 ```
 
-_El servidor se ejecuta en el puerto 6673
+_El servidor se ejecuta en el puerto 8082
 _http://localhost:8082/
 
 ## Construido con 🛠️
