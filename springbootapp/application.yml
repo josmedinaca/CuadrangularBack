@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://postgres:5432/oas
+    username: postgres
+    password: root
+    continueOnError: true
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+    
+server:
+  port: 8082
+  
+
+
+  

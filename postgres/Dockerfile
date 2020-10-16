@@ -1,0 +1,8 @@
+FROM postgres:12
+MAINTAINER skoltun
+ENV POSTGRES_HOST=oas
+ENV POSTGRES_DB=oas
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=root
+ENV POSTGRES_HOST_AUTH_METHOD=trust
+COPY init.sql /docker-entrypoint-initdb.d/
